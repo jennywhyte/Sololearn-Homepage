@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(27, 25, 39);  
+}
+
+header {
+    color: rgb(197, 191, 203);
+    font-weight: bold;
+    position: static; 
+}
+
+.all-wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 3px; 
+}
+
+button:hover { 
+    transition: o.3s;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.topnav {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    overflow: hidden;
+    top: 0;
+    margin-top: 30px;
+    position: fixed;
+    float: left;
+    left: 500px;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: rgb(197, 191, 203);
+    font-weight: bold;
+    font-size: 70px;
+}
+
+/* .anchor {
+    color: rgb(43, 51, 97);
+    gap: 30px;
+    font-size: 20px;
+} */
+
+.log-reg {
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.log {
+    padding: 15px;
+    background-color: rgb(48, 44, 68);
+    color: rgb(114, 171, 218);
+    border: rgb(114, 171, 218);
+    height: 50px;
+    width: 150px;
+}
+
+.reg {
+    color: white;
+    background-color: rgb(51, 69, 155);
+    border: rgb(51, 69, 155);
+    padding: 15px;
+    height: 50px;
+    width: 150px;
+}
+
+.all-text {
+    text-align: center;
+    padding: 30px;
+}
+
+h3 {
+    color: rgb(197, 191, 203);
+    font-size: 20px; 
+}
+
+.second-paragraph {
+    padding: 10px;
+}
+
+#learning {
+    background-color: rgb(142, 225, 250);
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: white;
+    border: rgb(142, 225, 250);
+}
+
+.bottom-icons {
+    margin-top: 20px; 
+    padding: 10px;
+    height: 200px;
+    gap: 40px; 
+    border-radius: 10px;
+}
+
+#google {
+    background-color: rgb(211, 127, 116);
+    color: white;
+    width: 150px;
+    border: rgb(211, 127, 116);
+}
+
+#apple {
+    background-color: rgb(186, 186, 184);
+    color: black;
+    width: 150px;
+    border: rgb(186, 186, 184);
+}
+
+#fb {
+    background-color: rgb(55, 162, 240);
+    color: white;
+    width: 150px;
+    border: rgb(55, 162, 240);
+}
